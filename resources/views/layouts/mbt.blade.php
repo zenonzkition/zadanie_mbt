@@ -45,6 +45,20 @@
                     <span>Dashboard</span></a>
             </li>
 
+            <!-- Nav Item - Add project -->
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('projects.create') }}">
+                    <i class="fas fa-pencil-alt"></i>
+                    <span>Dodaj projekt</span></a>
+            </li>
+
+             <!-- Nav Item - Project list -->
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('projects.index') }}">
+                    <i class="fas fa-list"></i>
+                    <span>Projekty</span></a>
+            </li>
+
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
